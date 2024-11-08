@@ -15,5 +15,4 @@ public class PhoneNumber {
     public String toString() {
         return "Contact.PhoneNumber: " + (countryCode.isEmpty() ? "" : countryCode + " ") + number;
     }
-
 }
