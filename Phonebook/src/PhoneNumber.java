@@ -13,11 +13,7 @@ public class PhoneNumber {
 
     @Override
     public String toString() {
-        return "PhoneNumber: " + (countryCode.isEmpty() ? "" : countryCode + " ") + number;
+        return "Contact.PhoneNumber: " + (countryCode.isEmpty() ? "" : countryCode + " ") + number;
     }
 
-    public static void main(String[] args) {
-        PhoneNumber phoneNumber = new PhoneNumber("+98", "933876123412");
-        System.out.println(phoneNumber.toString());
-    }
 }

@@ -11,14 +11,10 @@ public class Address {
 
     @Override
     public String toString() {
-        return "Address Details:\n" +
+        return "Contact.Address Details:\n" +
                 "Zip Code: " + (zipCode.isEmpty() ? "N/A" : zipCode) + "\n" +
                 "Country: " + (country.isEmpty() ? "N/A" : country) + "\n" +
                 "City: " + (city.isEmpty() ? "N/A" : city);
     }
 
-    public static void main(String[] args) {
-        Address address = new Address("37196883", "INDIA", "New Delhi");
-        System.out.println(address.toString());
     }
-}
